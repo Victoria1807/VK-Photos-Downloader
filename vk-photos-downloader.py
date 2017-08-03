@@ -4,7 +4,8 @@
 import vk, os, time
 from urllib.request import urlretrieve
 
-token = input("Enter a token: ")  # vk token
+token = input("Enter a token: ") # vk token
+
 
 #Authorization
 session = vk.Session(access_token=str(token))
@@ -15,7 +16,7 @@ perc = 0  # percent of down. photos
 breaked = 0  # unsuccessful down.
 time_now = time.time()  # current time
 
-url = input("Enter a URL of album: ")  # url of album
+url = "'" + input("Enter a URL of album: ") + "'"  # url of album
 folder_name = input("Enter a name of folder for download photos: ")  # fold. for photo
 
 print("-------------------------------------------")
@@ -60,7 +61,7 @@ minutes = int((time.time() - time_now) // 60)
 seconds = int((time.time() - time_now) % 60)
 
 print("------------------------")
-print("Successful download {} photos.".format(count))
+print("Successful downloaded {} photos.".format(count))
 print("Skipped {} photos.".format(breaked))
 print("Time spent: {}.{} minutes.".format(minutes, seconds))
 
