@@ -4,8 +4,10 @@
 import vk, os, time
 from urllib.request import urlretrieve
 
+token = input("Enter a token: ")
+
 #Authorization
-session = vk.Session(access_token='9553717f54b665bc560b6a2cfa89fae62b43f1d442dcb3af337c5ffbc53005b99baf67e64f620dc351cf6')
+session = vk.Session(access_token=str(token))
 vk_api = vk.API(session)
 
 count = 0  # count of down. photos
