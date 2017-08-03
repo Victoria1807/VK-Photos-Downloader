@@ -1,6 +1,6 @@
 # VK-Photos-Downloader
 ## Version 1.0 | 03.08.17
-A Python script, which allow to download the photos from any album.
+A Python script, which allow to download the photos from any album of VK.
 
 Realized by **Python 3.5**
 
