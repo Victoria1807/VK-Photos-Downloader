@@ -1,4 +1,5 @@
 # VK-Photos-Downloader
+![](https://pp.userapi.com/c637426/v637426803/397a0/6sWwcilcnGI.jpg)
 ## Version 1.0 | 03.08.17
 A Python script, which allow to download the photos from any album of VK.
 
