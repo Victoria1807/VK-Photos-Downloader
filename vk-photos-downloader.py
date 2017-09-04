@@ -42,7 +42,6 @@ else:
 photos_link = []  #  photos link
 
 for i in photos_information:
-    #photos_link.append(i['src_xxbig'])
     if 'src_xxbig' in i:
         photos_link.append(i['src_xxbig'])
     elif 'src_xbig' in i:
