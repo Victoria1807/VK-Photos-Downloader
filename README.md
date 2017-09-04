@@ -6,7 +6,7 @@ A Python script, which allow to download the photos from any album of VK.
 Realized by **Python 3.5**
 
 ## Additional modules:
- 1. **[VK](https://github.com/python273/vk_api)**
+ 1. **[VK](https://github.com/dimka665/vk)**
 
 ## My profiles:
  - [VK](https://vk.com/victoria_1807)
