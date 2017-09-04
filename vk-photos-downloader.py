@@ -42,7 +42,17 @@ else:
 photos_link = []  #  photos link
 
 for i in photos_information:
-    photos_link.append(i['src_xxbig'])
+    #photos_link.append(i['src_xxbig'])
+    if 'src_xxbig' in i:
+        photos_link.append(i['src_xxbig'])
+    elif 'src_xbig' in i:
+        photos_link.append(i['src_xbig'])
+    elif 'src_big' in i:
+        photos_link.append(i['src_big'])
+    elif 'src' in i:
+        photos_link.append(i['src'])
+    elif 'src_small' in i:
+        photos_link.append(i['src_small'])
 
 photo_name = 0  # photo name
 
