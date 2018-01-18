@@ -10,6 +10,7 @@ Realized by **Python 3.5**
 
 ## My profiles:
  - [VK](https://vk.com/victoria_1807)
+ - [Telegram](https://telegram.me/Victoria1807)
  - [GitHub](https://github.com/Victoria1807)
  - E-mail - flamaster1807@gmail.com
  
