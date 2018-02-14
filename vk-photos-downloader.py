@@ -73,5 +73,3 @@ print("------------------------")
 print("Successful downloaded {} photos.".format(count))
 print("Skipped {} photos.".format(breaked))
 print("Time spent: {}.{} minutes.".format(minutes, seconds))
-
-
